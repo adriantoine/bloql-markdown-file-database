@@ -1,0 +1,31 @@
+{
+  "name": "bloql-markdown-file-database",
+  "version": "0.1.0",
+  "description": "Markdown file database for bloql blog engine",
+  "main": "database.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:adriantoine/bloql-markdown-file-database.git"
+  },
+  "keywords": [
+    "bloql",
+    "blog",
+    "engine",
+    "markdown",
+    "database",
+    "file",
+    "filters"
+  ],
+  "author": "Adrien Antoine <adriantoine@gmail.com> (http://adriantoine.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriantoine/bloql-markdown-file-database/issues"
+  },
+  "homepage": "https://github.com/adriantoine/bloql-markdown-file-database#readme",
+  "dependencies": {
+    "gray-matter": "^2.0.1",
+    "lodash": "^3.10.1",
+    "markdown-it": "^4.4.0",
+    "moment": "^2.10.6"
+  }
+}

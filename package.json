@@ -24,8 +24,11 @@
   "homepage": "https://github.com/adriantoine/bloql-markdown-file-database#readme",
   "dependencies": {
     "gray-matter": "^2.0.1",
+    "highlight.js": "^8.8.0",
     "lodash": "^3.10.1",
     "markdown-it": "^4.4.0",
-    "moment": "^2.10.6"
+    "markdown-it-emoji": "^1.1.0",
+    "moment": "^2.10.6",
+    "twemoji": "^1.4.1"
   }
 }

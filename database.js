@@ -7,8 +7,7 @@ import path from 'path';
 import _ from 'lodash';
 import moment from 'moment';
 import metaParser from 'gray-matter';
-import MarkdownIt from 'markdown-it';
-const md = new MarkdownIt();
+import md from './markdown';
 
 // Set config variables
 // ------------------------------

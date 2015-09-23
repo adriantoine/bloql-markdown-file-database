@@ -9,22 +9,15 @@ import hljs from 'highlight.js';
 const md = new MarkdownIt({
   highlight: function (str, lang) {
     if (lang && hljs.getLanguage(lang)) {
-      try {
-        return hljs.highlight(lang, str).value;
-      } catch (__) {}
+      return hljs.highlight(lang, str).value;
     }
-
-    try {
-      return hljs.highlightAuto(str).value;
-    } catch (__) {}
-
-    return ''; // use external default escaping
+    return hljs.highlightAuto(str).value;
   }
 });
 
 // Set up emojis
 md.use(require('markdown-it-emoji'));
-md.renderer.rules.emoji = function(token, idx) {
+md.renderer.rules.emoji = function (token, idx) {
   return require('twemoji').parse(token[idx].content, {
     folder: 'svg',
     ext: '.svg'

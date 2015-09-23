@@ -1,6 +1,6 @@
 {
   "name": "bloql-markdown-file-database",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Markdown file database for bloql blog engine",
   "main": "database.js",
   "repository": {
